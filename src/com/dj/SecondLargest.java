@@ -3,7 +3,7 @@ package com.dj;
 public class SecondLargest {
     public static void main(String[] Args)
     {
-        int[] arr = {8,8,8,8,8,8};
+        int[] arr = {8,8,8,8,5,8};
 
         System.out.println(secondlargenumber(arr));
     }

@@ -7,7 +7,6 @@ public class rotateArrayBy1 {
         int[] nums = { 2, 3, 4, 5};
         rotate(nums);
         System.out.println(Arrays.toString(nums));
-
     }
     static void rotate(int[] nums)
     {
