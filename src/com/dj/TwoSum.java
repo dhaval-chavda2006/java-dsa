@@ -27,6 +27,5 @@ public class TwoSum {
             temp.put(arr[i], i);
         }
         return new int[]{};
-
     }
 }

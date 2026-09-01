@@ -7,10 +7,11 @@ public class SortColor {
 
     public static void main(String[] Args)
     {
-        int[] arr = {2,0,1};
+        int[] arr = {2,0,2,1,1,0};
         ColorSort(arr);
         System.out.println(Arrays.toString((arr)));
     }
+
     static void ColorSort(int[] arr)
     {
         for(int i =0; i< arr.length; i++)
