@@ -27,25 +27,20 @@ public class BuyingSellingStock {
     }
 }
 
-
 class Optimization{
     static int optimize(int[] prices)
     {
         int small = prices[0];
-        int maxProfit = 0;
+        int MaxLength=0;
 
-        for(int i =1; i<prices.length; i++)
+        for(int i =1; i< prices.length; i++)
         {
-            if (prices[i] < small) {
-                small = prices[i];
-            }
+            if(prices[i]<small) small = prices[i];
 
             int profit = prices[i] - small;
 
-            if (profit > maxProfit) {
-                maxProfit = profit;
-            }
+            if(profit>MaxLength) MaxLength = profit;
         }
-        return maxProfit;
+        return MaxLength;
     }
 }
