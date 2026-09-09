@@ -36,7 +36,6 @@ public class NextPermutation {
     }
 
     static void swap(int[] nums, int i, int j) {
-
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
@@ -45,7 +44,6 @@ public class NextPermutation {
     static void reverse(int[] nums, int left, int right) {
 
         while (left < right) {
-
             int temp = nums[left];
             nums[left] = nums[right];
             nums[right] = temp;
