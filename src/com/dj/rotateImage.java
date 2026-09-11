@@ -3,10 +3,10 @@ package com.dj;
 public class rotateImage {
     public static void main(String[] Args)
     {
-        int[][] arr = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] arr = {{5,1,9,11},{2,4,8,10},{13,3,6,7},{15,14,12,16}};
         for (int i = 0; i < arr.length; i++)
         {
-            for(int j =i+1; j < arr.length; j++)
+            for(int j =i; j < arr.length; j++)
             {
                 int temp = arr[i][j];
                 arr[i][j] = arr[j][i];
