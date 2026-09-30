@@ -2,7 +2,7 @@ package com.TrainingDSA;
 
 import java.util.*;
 
-public class RunningSumof1dArray {
+public class RunningSumof1dArray1480 {
     public static void main(String[] Args)
     {
         int[] nums = {1,2,3,4};

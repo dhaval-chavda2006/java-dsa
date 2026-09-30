@@ -4,6 +4,10 @@ import java.util.*;
 public class kidswithGreatestCandies1431 {
     public static void main(String[] Args)
     {
+        int[] candies = {3,4,5,61,3,4,9};
+        int extraCandies = 3;
+
+        System.out.println(kidsWithCandies(candies,extraCandies));
 
     }
     static List<Boolean> kidsWithCandies(int[] candies, int extraCandies)
@@ -34,7 +38,6 @@ public class kidswithGreatestCandies1431 {
                 l.add(true);
             }
         }
-
         return l;
     }
 }

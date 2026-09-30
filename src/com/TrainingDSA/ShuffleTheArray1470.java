@@ -1,7 +1,7 @@
 package com.TrainingDSA;
 import java.util.*;
 
-public class ShuffleTheArray {
+public class ShuffleTheArray1470 {
     public static void main(String[] Args)
     {
         int[] nums = {2,5,1,3,4,7};
